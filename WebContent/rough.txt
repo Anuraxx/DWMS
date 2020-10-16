@@ -1,0 +1,7 @@
+<!-- %
+//			System.out.print(request.getAttribute("valid").equals("true"));
+			if(request.getAttribute("valid")==null || !request.getAttribute("valid").equals("true")){
+				//request.getRequestDispatcher("index.jsp").forward(request, response);
+				response.sendRedirect("index.jsp");
+			}
+		%-->

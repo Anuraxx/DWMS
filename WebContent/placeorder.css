@@ -1,0 +1,63 @@
+@import "normalize.css";
+@import "reset.css";
+
+.number input{
+	height:34px;
+      width: 100px;
+      text-align: center;
+      font-size: 26px;
+			border:1px solid #ddd;
+			border-radius:4px;
+      display: inline-block;
+      vertical-align: middle;
+}
+
+.order-form{
+	border:1px solid grey;width:400px;height:400px;position: relative;left:50%;transform:translate(-50%);top:200px;border-radius:20px
+}
+.order-form form{
+	margin-top:50px;
+}
+.pod{
+	width: 80%;
+    margin-left: 10%; margin-top:20px;
+    box-sizing: border-box;
+    padding: 2%;
+    text-align: center;
+}
+
+.gj-textbox-md{
+	border:1px solid lightgrey !important;
+}
+.clock{
+	    height: 100%; line-height: 1.7; width: 30px;
+}
+.btn{position: relative;left:50%;transform:translate(-50%)}
+
+.gj-datepicker{
+	width:80%;margin-left: 10%;
+}
+span {cursor:pointer; }
+		
+.number{
+			width:83%;margin-left: 8.5%;margin-top: 20px;
+		}
+		
+.minus, .plus{
+			width:30px;
+			height:34px;
+			background:#0080c0;
+			border-radius:4px;
+			padding:5px 5px 5px 5px;
+			border:1px solid #ddd;
+      		display: inline-block;
+     		vertical-align: middle;
+      		text-align: center;
+}
+.blue-circle{
+		height:20px;width:20px;background-color: #3498DB;border-radius:50%;float: right; margin-top: -8px;
+}
+	
+.unk{
+	display:none;
+}
